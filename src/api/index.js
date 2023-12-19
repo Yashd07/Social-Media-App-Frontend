@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://memories-api.onrender.com' });
+const API = axios.create({ baseURL: 'https://memories-yash-api.onrender.com' });
 //http://localhost:5000'
 
 API.interceptors.request.use((req) => {
